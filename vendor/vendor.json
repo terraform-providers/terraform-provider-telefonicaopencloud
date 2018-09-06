@@ -2446,6 +2446,18 @@
 			"revisionTime": "2018-03-15T11:09:47Z"
 		},
 		{
+			"checksumSHA1": "K5KP0LNnl6adeGKlG/9x36sG4Ys=",
+			"path": "github.com/huaweicloud/golangsdk/openstack/networking/v1/subnets",
+			"revision": "dfc9afb7c801cc2a2ba4a62fdd5510a1c9597aec",
+			"revisionTime": "2018-08-07T06:36:50Z"
+		},
+		{
+			"checksumSHA1": "BeVcL4FNVGe8c5Vxha/xFyz6dlA=",
+			"path": "github.com/huaweicloud/golangsdk/openstack/networking/v1/vpcs",
+			"revision": "dfc9afb7c801cc2a2ba4a62fdd5510a1c9597aec",
+			"revisionTime": "2018-08-07T06:36:50Z"
+		},
+		{
 			"checksumSHA1": "sTcp7qY7oxqXeTiUWr/LUhFXYWM=",
 			"path": "github.com/huaweicloud/golangsdk/openstack/networking/v2/extensions/elb",
 			"revision": "b30e33595f46378156035bfec5b52b350c4b2b72",
@@ -2688,5 +2700,5 @@
 			"versionExact": "v1.6.1"
 		}
 	],
-	"rootPath": "github.com/huaweicloud/terraform-provider-telefonicaopencloud"
+	"rootPath": "github.com/terraform-providers/terraform-provider-telefonicaopencloud"
 }
