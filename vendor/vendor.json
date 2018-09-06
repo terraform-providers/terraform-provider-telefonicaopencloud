@@ -2374,16 +2374,22 @@
 			"revisionTime": "2016-07-20T23:31:40Z"
 		},
 		{
-			"checksumSHA1": "bxyNTlhb+f8yYAyCqB7B5eNGUAE=",
+			"checksumSHA1": "dujGQt3/KQowqUypSAON9xytBsM=",
 			"path": "github.com/huaweicloud/golangsdk",
-			"revision": "b30e33595f46378156035bfec5b52b350c4b2b72",
-			"revisionTime": "2018-03-15T11:09:47Z"
+			"revision": "1ef4c250ce2ea6c28095385c1800ac8a74492ca9",
+			"revisionTime": "2018-09-05T09:58:59Z"
 		},
 		{
-			"checksumSHA1": "LnXFUbRo/OFKQ5BIYadLB5Z9B3s=",
+			"checksumSHA1": "5CrERxD5a4GySU7WD2JukNddc9s=",
+			"path": "github.com/huaweicloud/golangsdk/internal",
+			"revision": "1ef4c250ce2ea6c28095385c1800ac8a74492ca9",
+			"revisionTime": "2018-09-05T09:58:59Z"
+		},
+		{
+			"checksumSHA1": "emiryJ6lE3v0AYo4vshf9fTHE2A=",
 			"path": "github.com/huaweicloud/golangsdk/openstack",
-			"revision": "b30e33595f46378156035bfec5b52b350c4b2b72",
-			"revisionTime": "2018-03-15T11:09:47Z"
+			"revision": "1ef4c250ce2ea6c28095385c1800ac8a74492ca9",
+			"revisionTime": "2018-09-05T09:58:59Z"
 		},
 		{
 			"checksumSHA1": "YsbxI+HIiezQExsnzH+GBc37qfY=",
@@ -2428,10 +2434,28 @@
 			"revisionTime": "2018-03-15T11:09:47Z"
 		},
 		{
+			"checksumSHA1": "XcZRfqH3OnpRqeijzBpl818Zmko=",
+			"path": "github.com/huaweicloud/golangsdk/openstack/identity/v3/endpoints",
+			"revision": "1ef4c250ce2ea6c28095385c1800ac8a74492ca9",
+			"revisionTime": "2018-09-05T09:58:59Z"
+		},
+		{
+			"checksumSHA1": "7z4nHFWIrD6H9FcUBM8poKx69do=",
+			"path": "github.com/huaweicloud/golangsdk/openstack/identity/v3/services",
+			"revision": "1ef4c250ce2ea6c28095385c1800ac8a74492ca9",
+			"revisionTime": "2018-09-05T09:58:59Z"
+		},
+		{
 			"checksumSHA1": "ObTpLoXtNExYOWxC76a/MUrCdQU=",
 			"path": "github.com/huaweicloud/golangsdk/openstack/identity/v3/tokens",
 			"revision": "b30e33595f46378156035bfec5b52b350c4b2b72",
 			"revisionTime": "2018-03-15T11:09:47Z"
+		},
+		{
+			"checksumSHA1": "JRRYtYkrco9209oThCcF5MEPIII=",
+			"path": "github.com/huaweicloud/golangsdk/openstack/kms/v1/keys",
+			"revision": "1ef4c250ce2ea6c28095385c1800ac8a74492ca9",
+			"revisionTime": "2018-09-05T09:58:59Z"
 		},
 		{
 			"checksumSHA1": "S03meuz/zX857hIqfpgyCUfrcFs=",
@@ -2688,5 +2712,5 @@
 			"versionExact": "v1.6.1"
 		}
 	],
-	"rootPath": "github.com/huaweicloud/terraform-provider-telefonicaopencloud"
+	"rootPath": "github.com/terraform-providers/terraform-provider-telefonicaopencloud"
 }
