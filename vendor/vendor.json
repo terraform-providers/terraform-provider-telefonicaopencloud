@@ -2446,16 +2446,16 @@
 			"revisionTime": "2018-03-15T11:09:47Z"
 		},
 		{
-			"checksumSHA1": "K5KP0LNnl6adeGKlG/9x36sG4Ys=",
+			"checksumSHA1": "dIL7S10PWn31tf9G9mdpfhSLX+E=",
 			"path": "github.com/huaweicloud/golangsdk/openstack/networking/v1/subnets",
-			"revision": "dfc9afb7c801cc2a2ba4a62fdd5510a1c9597aec",
-			"revisionTime": "2018-08-07T06:36:50Z"
+			"revision": "1ef4c250ce2ea6c28095385c1800ac8a74492ca9",
+			"revisionTime": "2018-09-05T09:58:59Z"
 		},
 		{
-			"checksumSHA1": "BeVcL4FNVGe8c5Vxha/xFyz6dlA=",
+			"checksumSHA1": "0fbet1a5ZY98zA7lG/uKdVW4WUE=",
 			"path": "github.com/huaweicloud/golangsdk/openstack/networking/v1/vpcs",
-			"revision": "dfc9afb7c801cc2a2ba4a62fdd5510a1c9597aec",
-			"revisionTime": "2018-08-07T06:36:50Z"
+			"revision": "1ef4c250ce2ea6c28095385c1800ac8a74492ca9",
+			"revisionTime": "2018-09-05T09:58:59Z"
 		},
 		{
 			"checksumSHA1": "sTcp7qY7oxqXeTiUWr/LUhFXYWM=",
