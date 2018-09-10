@@ -175,6 +175,7 @@ func Provider() terraform.ResourceProvider {
 			"telefonicaopencloud_networking_subnet_v2":   dataSourceNetworkingSubnetV2(),
 			"telefonicaopencloud_networking_secgroup_v2": dataSourceNetworkingSecGroupV2(),
 			"telefonicaopencloud_s3_bucket_object":       dataSourceS3BucketObject(),
+			"telefonicaopencloud_sfs_file_system_v2":     dataSourceSFSFileSystemV2(),
 		},
 
 		ResourcesMap: map[string]*schema.Resource{
@@ -211,6 +212,7 @@ func Provider() terraform.ResourceProvider {
 			"telefonicaopencloud_s3_bucket":                       resourceS3Bucket(),
 			"telefonicaopencloud_s3_bucket_policy":                resourceS3BucketPolicy(),
 			"telefonicaopencloud_s3_bucket_object":                resourceS3BucketObject(),
+			"telefonicaopencloud_sfs_file_system_v2":              resourceSFSFileSystemV2(),
 		},
 
 		ConfigureFunc: configureProvider,
