@@ -98,7 +98,7 @@ resource "telefonicaopencloud_compute_secgroup_v2" "secgrp_rds" {
 }
 
 resource "telefonicaopencloud_rds_instance_v1" "instance" {
-  name = "rds-instance"
+  name = "rds-instance-test"
   datastore {
     type = "PostgreSQL"
     version = "9.5.5"
