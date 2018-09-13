@@ -15,7 +15,7 @@ func TestAccMRSV1Cluster_basic(t *testing.T) {
 	var clusterGet cluster.Cluster
 
 	resource.Test(t, resource.TestCase{
-		PreCheck:     func() { testAccPreCheckMRS(t) },
+		PreCheck:     func() { testAccPreCheck(t) },
 		Providers:    testAccProviders,
 		CheckDestroy: testAccCheckMRSV1ClusterDestroy,
 		Steps: []resource.TestStep{
