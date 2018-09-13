@@ -196,6 +196,8 @@ func Provider() terraform.ResourceProvider {
 			"telefonicaopencloud_fw_firewall_group_v2":            resourceFWFirewallGroupV2(),
 			"telefonicaopencloud_fw_policy_v2":                    resourceFWPolicyV2(),
 			"telefonicaopencloud_fw_rule_v2":                      resourceFWRuleV2(),
+			"telefonicaopencloud_mrs_cluster_v1":                  resourceMRSClusterV1(),
+			"telefonicaopencloud_mrs_job_v1":                      resourceMRSJobV1(),
 			"telefonicaopencloud_networking_network_v2":           resourceNetworkingNetworkV2(),
 			"telefonicaopencloud_networking_subnet_v2":            resourceNetworkingSubnetV2(),
 			"telefonicaopencloud_networking_floatingip_v2":        resourceNetworkingFloatingIPV2(),

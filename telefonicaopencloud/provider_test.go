@@ -32,6 +32,9 @@ var (
 	OS_ACCESS_KEY             = os.Getenv("OS_ACCESS_KEY")
 	OS_SECRET_KEY             = os.Getenv("OS_SECRET_KEY")
 	OS_TENANT_ID              = os.Getenv("OS_TENANT_ID")
+	OS_SUBNET_ID              = os.Getenv("OS_SUBNET_ID")
+	OS_SUBNET_NAME            = os.Getenv("OS_SUBNET_NAME")
+	OS_VPC_NAME               = os.Getenv("OS_VPC_NAME")
 )
 
 var testAccProviders map[string]terraform.ResourceProvider
