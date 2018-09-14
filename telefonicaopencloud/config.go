@@ -478,6 +478,13 @@ func (c *Config) getHwEndpointType() golangsdk.Availability {
 	return golangsdk.AvailabilityPublic
 }
 
+func (c *Config) orchestrationV1Client(region string) (*golangsdk.ServiceClient, error) {
+	return huaweisdk.NewOrchestrationV1(c.HwClient, golangsdk.EndpointOpts{
+		Region:       c.determineRegion(region),
+		Availability: c.getHwEndpointType(),
+	})
+}
+
 func (c *Config) sfsV2Client(region string) (*golangsdk.ServiceClient, error) {
 	return huaweisdk.NewSharedFileSystemV2(c.HwClient, golangsdk.EndpointOpts{
 		Region:       c.determineRegion(region),
