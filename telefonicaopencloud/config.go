@@ -78,6 +78,7 @@ func newhwClient(c *Config) error {
 	if c.AccessKey != "" && c.SecretKey != "" {
 		ao = golangsdk.AKSKAuthOptions{
 			IdentityEndpoint: c.IdentityEndpoint,
+			ProjectName:      c.TenantName,
 			ProjectId:        c.TenantID,
 			Region:           c.Region,
 			//			Domain:           c.DomainName,

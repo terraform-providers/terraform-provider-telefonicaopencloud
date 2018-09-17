@@ -742,6 +742,12 @@
 			"revisionTime": "2018-09-21T09:37:12Z"
 		},
 		{
+			"checksumSHA1": "pa67wrbcc1T2bC+Oj0qgkEuMDjo=",
+			"path": "github.com/huaweicloud/golangsdk/openstack/identity/v3/projects",
+			"revision": "c53caafebd25101f46ffbc0819b0d6a5dee1b599",
+			"revisionTime": "2018-09-14T10:43:43Z"
+		},
+		{
 			"checksumSHA1": "7z4nHFWIrD6H9FcUBM8poKx69do=",
 			"path": "github.com/huaweicloud/golangsdk/openstack/identity/v3/services",
 			"revision": "1d8a2d2776a596972047b59404b2e898847fbaea",
