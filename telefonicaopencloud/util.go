@@ -8,9 +8,9 @@ import (
 	"time"
 
 	"github.com/Unknwon/com"
-	"github.com/huaweicloud/golangsdk"
 	"github.com/hashicorp/terraform/helper/resource"
 	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/huaweicloud/golangsdk"
 )
 
 // BuildRequest takes an opts struct and builds a request body for
