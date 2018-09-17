@@ -71,7 +71,7 @@ provider "telefonicaopencloud" {
 }
 
 # Create a web server
-resource "flexibleengine_compute_instance_v2" "test-server" {
+resource "telefonicaopencloud_compute_instance_v2" "test-server" {
   name            = "test-server"
   image_name  = "Standard_CentOS_7_latest"
   flavor_name = "s1.medium"
