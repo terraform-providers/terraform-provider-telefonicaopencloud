@@ -1132,6 +1132,12 @@
 			"revisionTime": "2017-08-04T00:04:37Z"
 		},
 		{
+			"checksumSHA1": "ZSWoOPUNRr5+3dhkLK3C4cZAQPk=",
+			"path": "gopkg.in/yaml.v2",
+			"revision": "5420a8b6744d3b0345ab293f6fcba19c978f1183",
+			"revisionTime": "2018-03-28T19:50:20Z"
+		},
+		{
 			"checksumSHA1": "wICWAGQfZcHD2y0dHesz9R2YSiw=",
 			"path": "k8s.io/kubernetes/pkg/apimachinery",
 			"revision": "b0b7a323cc5a4a2019b2e9520c21c7830b7f708e",
