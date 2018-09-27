@@ -2374,16 +2374,22 @@
 			"revisionTime": "2016-07-20T23:31:40Z"
 		},
 		{
-			"checksumSHA1": "bxyNTlhb+f8yYAyCqB7B5eNGUAE=",
+			"checksumSHA1": "2f5ynPhSwFv1gpKuopzKSk+N6WA=",
 			"path": "github.com/huaweicloud/golangsdk",
-			"revision": "b30e33595f46378156035bfec5b52b350c4b2b72",
-			"revisionTime": "2018-03-15T11:09:47Z"
+			"revision": "4b9abc50f45e31bb0e012c0946334eb07f07fb4e",
+			"revisionTime": "2018-09-20T10:39:50Z"
 		},
 		{
-			"checksumSHA1": "LnXFUbRo/OFKQ5BIYadLB5Z9B3s=",
+			"checksumSHA1": "iREB1NIZ0PY9qJJFsZAL8I31AEI=",
+			"path": "github.com/huaweicloud/golangsdk/internal",
+			"revision": "435398e47c60557da79b6754731fe8aa5cbe81be",
+			"revisionTime": "2018-09-12T07:47:56Z"
+		},
+		{
+			"checksumSHA1": "E1QtR8Nb2pR7fRUi57kgBFyKOts=",
 			"path": "github.com/huaweicloud/golangsdk/openstack",
-			"revision": "b30e33595f46378156035bfec5b52b350c4b2b72",
-			"revisionTime": "2018-03-15T11:09:47Z"
+			"revision": "4b9abc50f45e31bb0e012c0946334eb07f07fb4e",
+			"revisionTime": "2018-09-20T10:39:50Z"
 		},
 		{
 			"checksumSHA1": "YsbxI+HIiezQExsnzH+GBc37qfY=",
@@ -2416,6 +2422,18 @@
 			"revisionTime": "2018-03-15T11:09:47Z"
 		},
 		{
+			"checksumSHA1": "7Mw7pZC5ixs2i6kOrkyYZvNRSUo=",
+			"path": "github.com/huaweicloud/golangsdk/openstack/csbs/v1/backup",
+			"revision": "4b9abc50f45e31bb0e012c0946334eb07f07fb4e",
+			"revisionTime": "2018-09-20T10:39:50Z"
+		},
+		{
+			"checksumSHA1": "6PPuOdH56QpKtenWYRv//PXIcBI=",
+			"path": "github.com/huaweicloud/golangsdk/openstack/csbs/v1/policies",
+			"revision": "4b9abc50f45e31bb0e012c0946334eb07f07fb4e",
+			"revisionTime": "2018-09-20T10:39:50Z"
+		},
+		{
 			"checksumSHA1": "6cxgVwctlHbqIqO9rHVTwmDtxhk=",
 			"path": "github.com/huaweicloud/golangsdk/openstack/identity/v2/tenants",
 			"revision": "b30e33595f46378156035bfec5b52b350c4b2b72",
@@ -2426,6 +2444,24 @@
 			"path": "github.com/huaweicloud/golangsdk/openstack/identity/v2/tokens",
 			"revision": "b30e33595f46378156035bfec5b52b350c4b2b72",
 			"revisionTime": "2018-03-15T11:09:47Z"
+		},
+		{
+			"checksumSHA1": "AH32ytFyBn4Y+cJetSKnNnDrzWM=",
+			"path": "github.com/huaweicloud/golangsdk/openstack/identity/v3/endpoints",
+			"revision": "435398e47c60557da79b6754731fe8aa5cbe81be",
+			"revisionTime": "2018-09-12T07:47:56Z"
+		},
+		{
+			"checksumSHA1": "IDShPoHmqvpSi7Y8cO8uwyrodZI=",
+			"path": "github.com/huaweicloud/golangsdk/openstack/identity/v3/projects",
+			"revision": "4b9abc50f45e31bb0e012c0946334eb07f07fb4e",
+			"revisionTime": "2018-09-20T10:39:50Z"
+		},
+		{
+			"checksumSHA1": "q/3VudaXI7vBmPIHekL85m9jxUE=",
+			"path": "github.com/huaweicloud/golangsdk/openstack/identity/v3/services",
+			"revision": "435398e47c60557da79b6754731fe8aa5cbe81be",
+			"revisionTime": "2018-09-12T07:47:56Z"
 		},
 		{
 			"checksumSHA1": "ObTpLoXtNExYOWxC76a/MUrCdQU=",
@@ -2542,12 +2578,6 @@
 			"revisionTime": "2018-03-15T11:09:47Z"
 		},
 		{
-			"checksumSHA1": "+JRQECD1oxmwOI7NLLfPH3RvL7E=",
-			"path": "github.com/huaweicloud/golangsdk/openstack/sfs/v2/shares",
-			"revision": "1ef4c250ce2ea6c28095385c1800ac8a74492ca9",
-			"revisionTime": "2018-09-05T09:58:59Z"
-		},
-		{
 			"checksumSHA1": "MiR4dnIYKzUi4ry6oyYLtc6tkls=",
 			"path": "github.com/huaweicloud/golangsdk/openstack/rts/v1/softwareconfig",
 			"revision": "1ef4c250ce2ea6c28095385c1800ac8a74492ca9",
@@ -2572,6 +2602,12 @@
 			"revisionTime": "2018-09-05T09:58:59Z"
 		},
 		{
+			"checksumSHA1": "+JRQECD1oxmwOI7NLLfPH3RvL7E=",
+			"path": "github.com/huaweicloud/golangsdk/openstack/sfs/v2/shares",
+			"revision": "1ef4c250ce2ea6c28095385c1800ac8a74492ca9",
+			"revisionTime": "2018-09-05T09:58:59Z"
+		},
+		{
 			"checksumSHA1": "RV9GKwWK04J4e9L2kbfZnyO+0+U=",
 			"path": "github.com/huaweicloud/golangsdk/openstack/smn/v2/subscriptions",
 			"revision": "b30e33595f46378156035bfec5b52b350c4b2b72",
@@ -2590,10 +2626,10 @@
 			"revisionTime": "2018-03-15T11:09:47Z"
 		},
 		{
-			"checksumSHA1": "unuouwL0EzTLflKCDFkwzrJ81d4=",
+			"checksumSHA1": "SBbobvtLi6xDnCUQZLdDOtai1YM=",
 			"path": "github.com/huaweicloud/golangsdk/pagination",
-			"revision": "b30e33595f46378156035bfec5b52b350c4b2b72",
-			"revisionTime": "2018-03-15T11:09:47Z"
+			"revision": "435398e47c60557da79b6754731fe8aa5cbe81be",
+			"revisionTime": "2018-09-12T07:47:56Z"
 		},
 		{
 			"checksumSHA1": "sVczcCYWr12ttrbXRFz/QOyDyWg=",
