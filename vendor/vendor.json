@@ -2422,10 +2422,10 @@
 			"revisionTime": "2018-03-15T11:09:47Z"
 		},
 		{
-			"checksumSHA1": "UUCVuzwaRWdanmmH2l30OFRCo7k=",
+			"checksumSHA1": "7Mw7pZC5ixs2i6kOrkyYZvNRSUo=",
 			"path": "github.com/huaweicloud/golangsdk/openstack/csbs/v1/backup",
-			"revision": "1d8a2d2776a596972047b59404b2e898847fbaea",
-			"revisionTime": "2018-09-21T09:37:12Z"
+			"revision": "4b9abc50f45e31bb0e012c0946334eb07f07fb4e",
+			"revisionTime": "2018-09-20T10:39:50Z"
 		},
 		{
 			"checksumSHA1": "Fp9Gl69WUW84NiNn+sx/3hbPGF8=",
