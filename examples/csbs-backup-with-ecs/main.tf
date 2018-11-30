@@ -1,9 +1,9 @@
-resource "huaweicloud_networking_network_v2" "terraform" {
+resource "telefonicaopencloud_networking_network_v2" "terraform" {
   name           = "terraform"
   admin_state_up = "true"
 }
 
-resource "huaweicloud_compute_secgroup_v2" "terraform" {
+resource "telefonicaopencloud_compute_secgroup_v2" "terraform" {
   name        = "terraform"
   description = "Security group for the Terraform example instances"
 
@@ -29,28 +29,28 @@ resource "huaweicloud_compute_secgroup_v2" "terraform" {
   }
 }
 
-resource "huaweicloud_compute_instance_v2" "terraform" {
+resource "telefonicaopencloud_compute_instance_v2" "terraform" {
   name            = "terraform"
   image_name      = "${var.image}"
   flavor_name     = "${var.flavor}"
   availability_zone = "${var.availability_zone}"
-  security_groups = ["${huaweicloud_compute_secgroup_v2.terraform.name}"]
+  security_groups = ["${telefonicaopencloud_compute_secgroup_v2.terraform.name}"]
 
   network {
-    uuid = "${huaweicloud_networking_network_v2.terraform.id}"
+    uuid = "${telefonicaopencloud_networking_network_v2.terraform.id}"
   }
 
 }
-resource "huaweicloud_csbs_backup_v1" "backup_v1" {
+resource "telefonicaopencloud_csbs_backup_v1" "backup_v1" {
   backup_name      = "${var.project}-backup"
-  resource_id      = "${huaweicloud_compute_instance_v2.terraform.id}"
+  resource_id      = "${telefonicaopencloud_compute_instance_v2.terraform.id}"
   resource_type    = "OS::Nova::Server"
 }
 
-resource "huaweicloud_csbs_backup_policy_v1" "backup_policy_v1" {
+resource "telefonicaopencloud_csbs_backup_policy_v1" "backup_policy_v1" {
   name            = "csbs-backup-policy"
   resource {
-    id = "${huaweicloud_compute_instance_v2.terraform.id}"
+    id = "${telefonicaopencloud_compute_instance_v2.terraform.id}"
     type = "OS::Nova::Server"
     name = "resource1"
   }
