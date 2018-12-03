@@ -588,12 +588,6 @@ func NewAutoScalingService(client *golangsdk.ProviderClient, eo golangsdk.Endpoi
 	return sc, err
 }
 
-// NewAutoScalingV1 creates a ServiceClient that may be used to access the AS service
-func NewAutoScalingV1(client *golangsdk.ProviderClient, eo golangsdk.EndpointOpts) (*golangsdk.ServiceClient, error) {
-	sc, err := initClientOpts(client, eo, "asv1")
-	return sc, err
-}
-
 // NewKmsKeyV1 creates a ServiceClient that may be used to access the v1
 // kms key service.
 func NewKmsKeyV1(client *golangsdk.ProviderClient, eo golangsdk.EndpointOpts) (*golangsdk.ServiceClient, error) {
@@ -770,14 +764,3 @@ func NewCTSService(client *golangsdk.ProviderClient, eo golangsdk.EndpointOpts) 
 	return sc, err
 }
 
-// NewELBV1 creates a ServiceClient that may be used to access the ELB service.
-func NewELBV1(client *golangsdk.ProviderClient, eo golangsdk.EndpointOpts) (*golangsdk.ServiceClient, error) {
-	sc, err := initClientOpts(client, eo, "elbv1")
-	return sc, err
-}
-
-// NewRDSV1 creates a ServiceClient that may be used to access the RDS service.
-func NewRDSV1(client *golangsdk.ProviderClient, eo golangsdk.EndpointOpts) (*golangsdk.ServiceClient, error) {
-	sc, err := initClientOpts(client, eo, "rdsv1")
-	return sc, err
-}
