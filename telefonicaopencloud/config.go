@@ -508,6 +508,13 @@ func (c *Config) computeV2HWClient(region string) (*golangsdk.ServiceClient, err
 	})
 }
 
+func (c *Config) csbsV1Client(region string) (*golangsdk.ServiceClient, error) {
+	return huaweisdk.NewCSBSService(c.HwClient, golangsdk.EndpointOpts{
+		Region:       c.determineRegion(region),
+		Availability: c.getHwEndpointType(),
+	})
+}
+
 func (c *Config) vbsV2Client(region string) (*golangsdk.ServiceClient, error) {
 	return huaweisdk.NewVBSV2(c.HwClient, golangsdk.EndpointOpts{
 		Region:       c.determineRegion(region),
