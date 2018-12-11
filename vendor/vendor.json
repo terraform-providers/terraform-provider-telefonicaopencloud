@@ -1146,5 +1146,5 @@
 			"versionExact": "v1.6.1"
 		}
 	],
-	"rootPath": "github.com/freesky-edward/terraform-provider-telefonicaopencloud"
+	"rootPath": "github.com/terraform-providers/terraform-provider-telefonicaopencloud"
 }
