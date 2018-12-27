@@ -186,6 +186,9 @@ func Provider() terraform.ResourceProvider {
 			"telefonicaopencloud_csbs_backup_v1":         dataSourceCSBSBackupV1(),
 			"telefonicaopencloud_csbs_backup_policy_v1":  dataSourceCSBSBackupPolicyV1(),
 			"telefonicaopencloud_cts_tracker_v1":         dataSourceCTSTrackerV1(),
+			"telefonicaopencloud_dcs_az_v1":              dataSourceDcsAZV1(),
+			"telefonicaopencloud_dcs_maintainwindow_v1":  dataSourceDcsMaintainWindowV1(),
+			"telefonicaopencloud_dcs_product_v1":         dataSourceDcsProductV1(),
 		},
 
 		ResourcesMap: map[string]*schema.Resource{
@@ -199,6 +202,7 @@ func Provider() terraform.ResourceProvider {
 			"telefonicaopencloud_compute_volume_attach_v2":        resourceComputeVolumeAttachV2(),
 			"telefonicaopencloud_dns_recordset_v2":                resourceDNSRecordSetV2(),
 			"telefonicaopencloud_dns_zone_v2":                     resourceDNSZoneV2(),
+			"telefonicaopencloud_dcs_instance_v1":                 resourceDcsInstanceV1(),
 			"telefonicaopencloud_elb_loadbalancer":                resourceELBLoadBalancer(),
 			"telefonicaopencloud_elb_listener":                    resourceELBListener(),
 			"telefonicaopencloud_elb_healthcheck":                 resourceELBHealthCheck(),
